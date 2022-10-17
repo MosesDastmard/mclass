@@ -7,7 +7,7 @@
 
 
 ```python
-!pip install diclass
+# !pip install diclass
 ```
 
     Collecting diclass
@@ -20,7 +20,6 @@
 
 
 ```python
-# or PyPI
 from diclass import DictClass
 
 obj = DictClass({'id':1, 'data':{'name':'John', 'age':31, 'wife':{'name':'Jessica', 'age':28}}})

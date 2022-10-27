@@ -10,22 +10,29 @@
 # !pip install diclass
 ```
 
-    Collecting diclass
-      Downloading diclass-1.0.0-py3-none-any.whl (4.2 kB)
-    Installing collected packages: diclass
-    Successfully installed diclass-1.0.0
-
-
 ## Example
 
 
 ```python
 from diclass import DictClass
-
-obj = DictClass({'id':1, 'data':{'name':'John', 'age':31, 'wife':{'name':'Jessica', 'age':28}}})
+import pandas as pd
+import numpy as np
+obj = DictClass({'id':1, 'data':{'name':'John', 'age':31, 'wife':{'name':'Jessica', 'age':np.nan}}})
 
 print(obj.id, obj.data.name, obj.data.wife.name)
 ```
 
     1 John Jessica
+
+
+
+```python
+obj
+```
+
+
+
+
+    {'id': 1, 'data': {'name': 'John', 'age': 31, 'wife': {'name': 'Jessica', 'age': nan}}}
+
 

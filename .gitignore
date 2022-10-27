@@ -129,4 +129,3 @@ dmypy.json
 .pyre/
 *.ipynb
 publish.sh
-setup.py

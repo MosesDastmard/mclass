@@ -7,7 +7,7 @@ long_description = (this_directory / "README.md").read_text()
 
 setup(
     name="mclass",
-    version="1.3.1",
+    version="1.3.2",
     author="Moses Dastmard",
     description="converts python dictoinary to class object",
     long_description=long_description,

@@ -6,7 +6,7 @@ this_directory = Path(__file__).parent
 long_description = (this_directory / "README.md").read_text()
 
 setup(
-    name="diclass",
+    name="mclass",
     version="1.3.1",
     author="Moses Dastmard",
     description="converts python dictoinary to class object",

@@ -7,7 +7,7 @@
 
 
 ```python
-# !pip install mclassm
+# !pip install mclass
 ```
 
 ## Example
